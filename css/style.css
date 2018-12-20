@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Lucida Grande Regular";
+  src: local("Lucida Grande Regular"),
+    url("../fonts/LucidaGrandeRegular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3399cc;
+  color: #fff;
+  font-family: "Lucida Grande Regular", sans-serif;
+}
+
+div .cities {
+  /* max-width: 760px;
+  max-height: 170px;  
+  background-color: #fff;
+  opacity: 0.7;*/
+}
+
+ul {
+  margin-top: -1px;
+  margin-right: -5px;
+  margin-bottom: -1px;
+  margin-left: -5px;
+  text-align: center;
+  transition: all 0.1s ease-in;
+  font-size: 0;
+}
+
+span {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.first-row li,
+.second-row li,
+.third-row li,
+.fourth-row li {
+  display: inline-block;
+  border-color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.lisbon {
+  background-color: #3399cc;
+  width: 49%;
+}
+
+.paris {
+  background-color: #33cccc;
+  width: 24%;
+}
+
+.belgrade {
+  background-color: #996699;
+  width: 24%;
+}
+
+.moscow {
+  background-color: #c24747;
+  width: 24%;
+}
+
+.tel-aviv {
+  background-color: #e2674a;
+  width: 24%;
+}
+
+.cair {
+  background-color: #ffcc66;
+  width: 24%;
+}
+
+.new-york {
+  background-color: #99cc99;
+  width: 24%;
+}
+
+.new-delhi {
+  background-color: #669999;
+  width: 24%;
+}
+
+.san-francisco {
+  background-color: #cc6699;
+  width: 49%;
+}
+
+.tokio {
+  background-color: #339966;
+  width: 24%;
+}
+
+.sydney {
+  background-color: #666699;
+  width: 98%;
+}
+
+.lisbon li:hover,
+.paris li:hover,
+.belgrade li:hover,
+.moscow li:hover,
+.tel-aviv li:hover,
+.cair li:hover,
+.new-york li:hover,
+.new-delhi li:hover,
+.san-francisco li:hover,
+.tokio li:hover,
+.sydney li:hover {
+  opacity: 1;
+}
